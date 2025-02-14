@@ -73,7 +73,7 @@ function App() {
   return (
     <>
       { !yes ?
-        <div className='w-screen h-screen overflow-hidden bg-pink-500/50'>
+        <div style={{ background: "rgba(246,51,154,0.5)" }} className='w-screen h-screen overflow-hidden'>
           <div style={{ height: `${100 - stickerHeight}%` }} className='w-full flex flex-col items-center justify-center'>
             <h1 className='text-pink-800 text-xl font-bold'>Will you be my Valentine?</h1>
             <div className='mt-10 w-full flex flex-col justify-center items-center gap-y-5'>
@@ -90,7 +90,7 @@ function App() {
           </div>
         </div>
        :
-        <div className='w-screen h-screen overflow-hidden bg-pink-500/50'>
+        <div style={{ background: "rgba(246,51,154,0.5)" }} className='w-screen h-screen overflow-hidden'>
           <div className='w-full h-full flex flex-col items-center justify-center'>
             <h1 className='text-pink-600 text-2xl font-bold'>Knew you would say YES</h1>
             <img src="/Sticker2.gif" alt="Animated GIF" className='h-full min-h-[170px] max-h-[400px]' />
