@@ -72,7 +72,7 @@ function App() {
 
   return (
     <>
-      <div className='w-screen h-screen overflow-hidden bg-pink-500 opacity-50'>
+      <div className='w-screen h-screen overflow-hidden bg-pink-300'>
       </div>
       { !yes ?
         <div className='absolute top-0 left-0 w-screen h-screen overflow-hidden'>
