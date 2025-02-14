@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   const [count, setCount] = useState(2);
   const [width, setWidth] = useState(144);
@@ -72,6 +74,8 @@ function App() {
 
   return (
     <>
+    
+      <Analytics />
       <div className='w-screen h-screen overflow-hidden bg-pink-300'>
       </div>
       { !yes ?
