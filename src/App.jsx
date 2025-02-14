@@ -86,14 +86,14 @@ function App() {
             </div>
           </div>
           <div style={{ height: `${stickerHeight}%` }} className='w-full h-1/2 flex items-center justify-center'>
-            <img src="/src/assets/Sticker.gif" alt="Animated GIF" className='h-full min-h-[170px]' />
+            <img src="/Sticker.gif" alt="Animated GIF" className='h-full min-h-[170px]' />
           </div>
         </div>
        :
         <div className='w-screen h-screen overflow-hidden bg-pink-500/50'>
           <div className='w-full h-full flex flex-col items-center justify-center'>
             <h1 className='text-pink-600 text-2xl font-bold'>Knew you would say YES</h1>
-            <img src="/src/assets/Sticker2.gif" alt="Animated GIF" className='h-full min-h-[170px] max-h-[400px]' />
+            <img src="/Sticker2.gif" alt="Animated GIF" className='h-full min-h-[170px] max-h-[400px]' />
           </div>
         </div>
        }
